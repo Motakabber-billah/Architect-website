@@ -1,4 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
+    margin: 0px;
+}
+
+*{
     font-family: "Work Sans", sans-serif;
+}
+
+header{
+    background-color: rgba(255, 144, 14, .10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.header-title{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.banner{
+    width: 862px;
+}
+
+.banner-title{
+    font-size: 64px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.banner-description{
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.banner-title,.banner-description{
+    margin: 0px auto;
+    text-align: center;
+    max-width: 862px;
+}
+
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;  
+    margin-left: 350px;
+    margin-right: 450px;
+    margin-bottom: 50px;
+
+}
+
+.banner-img{
+    width: 100%;
 }
