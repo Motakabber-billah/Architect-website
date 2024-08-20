@@ -10,6 +10,7 @@
 header{
     background-color: rgba(255, 144, 14, .10);
     padding: 50px 240px;
+    
 }
 nav{
     display: flex;
@@ -29,16 +30,16 @@ nav a{
 }
 
 .header-title{
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .banner{
-    width: 862px;
+    
 }
 
 .banner-title{
-    font-size: 64px;
+    font-size: 4.25rem;
     font-weight: bold;
     color: black;
     padding-bottom: 50px;
@@ -46,7 +47,7 @@ nav a{
 }
 
 .banner-description{
-    font-size: 16px;
+    font-size: 1.5rem;
     padding-bottom: 30px;
 }
 
@@ -73,4 +74,30 @@ nav a{
 
 .banner-img{
     width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .btn-primary{
+        margin: 20px auto;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .btn-primary{
+        margin: 20px auto;
+        display: block;
+    }
 }
